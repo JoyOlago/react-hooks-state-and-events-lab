@@ -2,6 +2,7 @@ import React from "react";
 import Item from "./Item";
 
 function ShoppingList({ items }) {
+const [selectedCategory, setSelectedCategory]= useState()
   return (
     <div className="ShoppingList">
       <div className="Filter">
